@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		0C0B89481D90327100251B7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B89471D90327100251B7C /* main.m */; };
 		0C0B894B1D90327100251B7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B894A1D90327100251B7C /* AppDelegate.m */; };
-		0C0B894E1D90327100251B7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B894D1D90327100251B7C /* ViewController.m */; };
-		0C0B89511D90327200251B7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B894F1D90327200251B7C /* Main.storyboard */; };
+		0C0B894E1D90327100251B7C /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B894D1D90327100251B7C /* SplashViewController.m */; };
 		0C0B89531D90327200251B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B89521D90327200251B7C /* Assets.xcassets */; };
 		0C0B89561D90327200251B7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B89541D90327200251B7C /* LaunchScreen.storyboard */; };
 		0C0B89611D90327200251B7C /* FashionStoreObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B89601D90327200251B7C /* FashionStoreObjCTests.m */; };
 		0C0B896C1D90327300251B7C /* FashionStoreObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B896B1D90327300251B7C /* FashionStoreObjCUITests.m */; };
+		0C0B89801D9049E500251B7C /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B897C1D9049E500251B7C /* Lato-Regular.ttf */; };
+		0C0B89811D9049E500251B7C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B897D1D9049E500251B7C /* Lato-Bold.ttf */; };
+		0C0B89821D9049E500251B7C /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B897E1D9049E500251B7C /* Lato-Light.ttf */; };
+		0C0B89831D9049E500251B7C /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B897F1D9049E500251B7C /* Lato-Medium.ttf */; };
+		6E302A3D304B8D9AC5E634D9 /* libPods-FashionStoreObjCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D106C93578A32E801864F959 /* libPods-FashionStoreObjCTests.a */; };
+		764F236829FF4771C45F4AC4 /* libPods-FashionStoreObjCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0718E500ADC09A974C03C1 /* libPods-FashionStoreObjCUITests.a */; };
+		83FAF757B16A17BCDCCDDA99 /* libPods-FashionStoreObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A7F57ED8C2859D0F817A6C /* libPods-FashionStoreObjC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +45,8 @@
 		0C0B89471D90327100251B7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C0B89491D90327100251B7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C0B894A1D90327100251B7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C0B894C1D90327100251B7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C0B894D1D90327100251B7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0C0B89501D90327200251B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C0B894C1D90327100251B7C /* SplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		0C0B894D1D90327100251B7C /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		0C0B89521D90327200251B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C0B89551D90327200251B7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C0B89571D90327200251B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,19 @@
 		0C0B89671D90327300251B7C /* FashionStoreObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionStoreObjCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0B896B1D90327300251B7C /* FashionStoreObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FashionStoreObjCUITests.m; sourceTree = "<group>"; };
 		0C0B896D1D90327300251B7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0B897C1D9049E500251B7C /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		0C0B897D1D9049E500251B7C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		0C0B897E1D9049E500251B7C /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		0C0B897F1D9049E500251B7C /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		12A7F57ED8C2859D0F817A6C /* libPods-FashionStoreObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionStoreObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		192A5A92E337F1EC2DB9F4F0 /* Pods-FashionStoreObjCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStoreObjCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStoreObjCUITests/Pods-FashionStoreObjCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E87208712A8FBBD80DC8572 /* Pods-FashionStoreObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStoreObjCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStoreObjCTests/Pods-FashionStoreObjCTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BA7E6BB2BD6DFBBBA7137B4 /* Pods-FashionStoreObjCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStoreObjCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStoreObjCUITests/Pods-FashionStoreObjCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D0A30E82385361891270469 /* Pods-FashionStoreObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStoreObjCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStoreObjCTests/Pods-FashionStoreObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBEFBB51D9EECC3AF5F8305 /* Pods-FashionStoreObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStoreObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStoreObjC/Pods-FashionStoreObjC.release.xcconfig"; sourceTree = "<group>"; };
+		C632C8D191819C5D1E1E1D9F /* Pods-FashionStoreObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStoreObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStoreObjC/Pods-FashionStoreObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		D106C93578A32E801864F959 /* libPods-FashionStoreObjCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionStoreObjCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE0718E500ADC09A974C03C1 /* libPods-FashionStoreObjCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionStoreObjCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83FAF757B16A17BCDCCDDA99 /* libPods-FashionStoreObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E302A3D304B8D9AC5E634D9 /* libPods-FashionStoreObjCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764F236829FF4771C45F4AC4 /* libPods-FashionStoreObjCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				0C0B895F1D90327200251B7C /* FashionStoreObjCTests */,
 				0C0B896A1D90327300251B7C /* FashionStoreObjCUITests */,
 				0C0B89441D90327100251B7C /* Products */,
+				37173992FF3471F2252E5203 /* Pods */,
+				E5C999E15F009305A84E3960 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +126,15 @@
 			children = (
 				0C0B89491D90327100251B7C /* AppDelegate.h */,
 				0C0B894A1D90327100251B7C /* AppDelegate.m */,
-				0C0B894C1D90327100251B7C /* ViewController.h */,
-				0C0B894D1D90327100251B7C /* ViewController.m */,
-				0C0B894F1D90327200251B7C /* Main.storyboard */,
+				0C0B894C1D90327100251B7C /* SplashViewController.h */,
+				0C0B894D1D90327100251B7C /* SplashViewController.m */,
 				0C0B89521D90327200251B7C /* Assets.xcassets */,
 				0C0B89541D90327200251B7C /* LaunchScreen.storyboard */,
 				0C0B89571D90327200251B7C /* Info.plist */,
+				0C0B897C1D9049E500251B7C /* Lato-Regular.ttf */,
+				0C0B897D1D9049E500251B7C /* Lato-Bold.ttf */,
+				0C0B897E1D9049E500251B7C /* Lato-Light.ttf */,
+				0C0B897F1D9049E500251B7C /* Lato-Medium.ttf */,
 				0C0B89461D90327100251B7C /* Supporting Files */,
 			);
 			path = FashionStoreObjC;
@@ -140,6 +166,29 @@
 			path = FashionStoreObjCUITests;
 			sourceTree = "<group>";
 		};
+		37173992FF3471F2252E5203 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C632C8D191819C5D1E1E1D9F /* Pods-FashionStoreObjC.debug.xcconfig */,
+				9FBEFBB51D9EECC3AF5F8305 /* Pods-FashionStoreObjC.release.xcconfig */,
+				9D0A30E82385361891270469 /* Pods-FashionStoreObjCTests.debug.xcconfig */,
+				1E87208712A8FBBD80DC8572 /* Pods-FashionStoreObjCTests.release.xcconfig */,
+				192A5A92E337F1EC2DB9F4F0 /* Pods-FashionStoreObjCUITests.debug.xcconfig */,
+				5BA7E6BB2BD6DFBBBA7137B4 /* Pods-FashionStoreObjCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5C999E15F009305A84E3960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12A7F57ED8C2859D0F817A6C /* libPods-FashionStoreObjC.a */,
+				D106C93578A32E801864F959 /* libPods-FashionStoreObjCTests.a */,
+				EE0718E500ADC09A974C03C1 /* libPods-FashionStoreObjCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0B89701D90327300251B7C /* Build configuration list for PBXNativeTarget "FashionStoreObjC" */;
 			buildPhases = (
+				16B63D26E4ED93CC334EC23C /* [CP] Check Pods Manifest.lock */,
 				0C0B893F1D90327100251B7C /* Sources */,
 				0C0B89401D90327100251B7C /* Frameworks */,
 				0C0B89411D90327100251B7C /* Resources */,
+				E4958B21EEE43EB63405E538 /* [CP] Embed Pods Frameworks */,
+				48651A6EB17092D675A10C76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0B89731D90327300251B7C /* Build configuration list for PBXNativeTarget "FashionStoreObjCTests" */;
 			buildPhases = (
+				A3FBA9AC02E7799A7E92B945 /* [CP] Check Pods Manifest.lock */,
 				0C0B89581D90327200251B7C /* Sources */,
 				0C0B89591D90327200251B7C /* Frameworks */,
 				0C0B895A1D90327200251B7C /* Resources */,
+				45AF706DB7E57534B094CB37 /* [CP] Embed Pods Frameworks */,
+				69BCEF63DBA001B9E68092D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0B89761D90327300251B7C /* Build configuration list for PBXNativeTarget "FashionStoreObjCUITests" */;
 			buildPhases = (
+				ADBE0044100ACCF32217B767 /* [CP] Check Pods Manifest.lock */,
 				0C0B89631D90327300251B7C /* Sources */,
 				0C0B89641D90327300251B7C /* Frameworks */,
 				0C0B89651D90327300251B7C /* Resources */,
+				09C08C1DABEDC651C48D64F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,9 +303,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0B89821D9049E500251B7C /* Lato-Light.ttf in Resources */,
+				0C0B89831D9049E500251B7C /* Lato-Medium.ttf in Resources */,
 				0C0B89561D90327200251B7C /* LaunchScreen.storyboard in Resources */,
+				0C0B89801D9049E500251B7C /* Lato-Regular.ttf in Resources */,
 				0C0B89531D90327200251B7C /* Assets.xcassets in Resources */,
-				0C0B89511D90327200251B7C /* Main.storyboard in Resources */,
+				0C0B89811D9049E500251B7C /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +328,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C08C1DABEDC651C48D64F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionStoreObjCUITests/Pods-FashionStoreObjCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16B63D26E4ED93CC334EC23C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		45AF706DB7E57534B094CB37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionStoreObjCTests/Pods-FashionStoreObjCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48651A6EB17092D675A10C76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionStoreObjC/Pods-FashionStoreObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69BCEF63DBA001B9E68092D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionStoreObjCTests/Pods-FashionStoreObjCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3FBA9AC02E7799A7E92B945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBE0044100ACCF32217B767 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4958B21EEE43EB63405E538 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FashionStoreObjC/Pods-FashionStoreObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C0B893F1D90327100251B7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0B894E1D90327100251B7C /* ViewController.m in Sources */,
+				0C0B894E1D90327100251B7C /* SplashViewController.m in Sources */,
 				0C0B894B1D90327100251B7C /* AppDelegate.m in Sources */,
 				0C0B89481D90327100251B7C /* main.m in Sources */,
 			);
@@ -311,14 +494,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0C0B894F1D90327200251B7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C0B89501D90327200251B7C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0C0B89541D90327200251B7C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +523,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -370,7 +546,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -395,6 +571,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -411,7 +588,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -420,6 +597,7 @@
 		};
 		0C0B89711D90327300251B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C632C8D191819C5D1E1E1D9F /* Pods-FashionStoreObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FashionStoreObjC/Info.plist;
@@ -431,6 +609,7 @@
 		};
 		0C0B89721D90327300251B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FBEFBB51D9EECC3AF5F8305 /* Pods-FashionStoreObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FashionStoreObjC/Info.plist;
@@ -442,6 +621,7 @@
 		};
 		0C0B89741D90327300251B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0A30E82385361891270469 /* Pods-FashionStoreObjCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FashionStoreObjCTests/Info.plist;
@@ -454,6 +634,7 @@
 		};
 		0C0B89751D90327300251B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E87208712A8FBBD80DC8572 /* Pods-FashionStoreObjCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FashionStoreObjCTests/Info.plist;
@@ -466,6 +647,7 @@
 		};
 		0C0B89771D90327300251B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192A5A92E337F1EC2DB9F4F0 /* Pods-FashionStoreObjCUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FashionStoreObjCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +659,7 @@
 		};
 		0C0B89781D90327300251B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA7E6BB2BD6DFBBBA7137B4 /* Pods-FashionStoreObjCUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FashionStoreObjCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +688,7 @@
 				0C0B89721D90327300251B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C0B89731D90327300251B7C /* Build configuration list for PBXNativeTarget "FashionStoreObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +697,7 @@
 				0C0B89751D90327300251B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C0B89761D90327300251B7C /* Build configuration list for PBXNativeTarget "FashionStoreObjCUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +706,7 @@
 				0C0B89781D90327300251B7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
