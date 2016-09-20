@@ -111,9 +111,9 @@
 				0C0B89451D90327100251B7C /* FashionStoreObjC */,
 				0C0B895F1D90327200251B7C /* FashionStoreObjCTests */,
 				0C0B896A1D90327300251B7C /* FashionStoreObjCUITests */,
-				0C0B89441D90327100251B7C /* Products */,
-				37173992FF3471F2252E5203 /* Pods */,
 				E5C999E15F009305A84E3960 /* Frameworks */,
+				37173992FF3471F2252E5203 /* Pods */,
+				0C0B89441D90327100251B7C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,12 +130,12 @@
 		0C0B89451D90327100251B7C /* FashionStoreObjC */ = {
 			isa = PBXGroup;
 			children = (
+				0C7061A21D90D618003B6D42 /* FeaturedViewController */,
+				0C0B89461D90327100251B7C /* Supporting Files */,
 				0C0B89491D90327100251B7C /* AppDelegate.h */,
 				0C0B894A1D90327100251B7C /* AppDelegate.m */,
 				0C0B894C1D90327100251B7C /* SplashViewController.h */,
 				0C0B894D1D90327100251B7C /* SplashViewController.m */,
-				0C7061A21D90D618003B6D42 /* FeaturedViewController */,
-				0C0B89461D90327100251B7C /* Supporting Files */,
 			);
 			path = FashionStoreObjC;
 			sourceTree = "<group>";
@@ -144,15 +144,15 @@
 			isa = PBXGroup;
 			children = (
 				0C0B89521D90327200251B7C /* Assets.xcassets */,
-				0C0B89541D90327200251B7C /* LaunchScreen.storyboard */,
 				0C0B89571D90327200251B7C /* Info.plist */,
-				0C0B897C1D9049E500251B7C /* Lato-Regular.ttf */,
 				0C0B897D1D9049E500251B7C /* Lato-Bold.ttf */,
 				0C0B897E1D9049E500251B7C /* Lato-Light.ttf */,
 				0C0B897F1D9049E500251B7C /* Lato-Medium.ttf */,
+				0C0B897C1D9049E500251B7C /* Lato-Regular.ttf */,
+				0C0B89541D90327200251B7C /* LaunchScreen.storyboard */,
 				0C0B89471D90327100251B7C /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		0C0B895F1D90327200251B7C /* FashionStoreObjCTests */ = {
@@ -176,12 +176,12 @@
 		0C7061A21D90D618003B6D42 /* FeaturedViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0C7061A31D90D68C003B6D42 /* FeaturedViewController.h */,
-				0C7061A41D90D68C003B6D42 /* FeaturedViewController.m */,
 				0C7061A61D90E383003B6D42 /* FeaturedTableViewCell.h */,
 				0C7061A71D90E383003B6D42 /* FeaturedTableViewCell.m */,
+				0C7061A31D90D68C003B6D42 /* FeaturedViewController.h */,
+				0C7061A41D90D68C003B6D42 /* FeaturedViewController.m */,
 			);
-			name = FeaturedViewController;
+			path = FeaturedViewController;
 			sourceTree = "<group>";
 		};
 		37173992FF3471F2252E5203 /* Pods */ = {
@@ -520,6 +520,7 @@
 				0C0B89551D90327200251B7C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -620,7 +621,7 @@
 			baseConfigurationReference = C632C8D191819C5D1E1E1D9F /* Pods-FashionStoreObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FashionStoreObjC/Info.plist;
+				INFOPLIST_FILE = "FashionStoreObjC/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuanvi.FashionStoreObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -632,7 +633,7 @@
 			baseConfigurationReference = 9FBEFBB51D9EECC3AF5F8305 /* Pods-FashionStoreObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = FashionStoreObjC/Info.plist;
+				INFOPLIST_FILE = "FashionStoreObjC/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuanvi.FashionStoreObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
