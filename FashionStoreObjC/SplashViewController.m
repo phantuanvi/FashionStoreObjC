@@ -7,6 +7,7 @@
 //
 
 #import "SplashViewController.h"
+#import "FeaturedViewController.h"
 #import "Masonry.h"
 
 @interface SplashViewController ()
@@ -154,12 +155,26 @@
     }];
 }
 
-- (void)womanButtonPressed: (id) sender {
+- (void)womanButtonPressed: (UIButton *) button {
     NSLog(@"womanButton");
+    
+    FeaturedViewController *featuredVC = FeaturedViewController.new;
+    UINavigationController *featuredNav = [[UINavigationController alloc] initWithRootViewController:featuredVC];
+    UITabBarItem *featuredItem = [[UITabBarItem alloc] initWithTitle:@"Featured" image:[UIImage imageNamed:@"featured"] tag:0];
+    featuredVC.tabBarItem = featuredItem;
+    
+    UITabBarController *tabBarCtrl = [[UITabBarController alloc] init];
+    tabBarCtrl.viewControllers = @[featuredNav];
+    
+    [self presentViewController:tabBarCtrl animated:YES completion:nil];
 }
 
-- (void)manButtonPressed: (id) sender {
+- (void)manButtonPressed: (UIButton *) button {
     NSLog(@"manButton");
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 @end

@@ -18,6 +18,8 @@
 		0C0B89811D9049E500251B7C /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B897D1D9049E500251B7C /* Lato-Bold.ttf */; };
 		0C0B89821D9049E500251B7C /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B897E1D9049E500251B7C /* Lato-Light.ttf */; };
 		0C0B89831D9049E500251B7C /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C0B897F1D9049E500251B7C /* Lato-Medium.ttf */; };
+		0C7061A51D90D68C003B6D42 /* FeaturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7061A41D90D68C003B6D42 /* FeaturedViewController.m */; };
+		0C7061A81D90E383003B6D42 /* FeaturedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7061A71D90E383003B6D42 /* FeaturedTableViewCell.m */; };
 		6E302A3D304B8D9AC5E634D9 /* libPods-FashionStoreObjCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D106C93578A32E801864F959 /* libPods-FashionStoreObjCTests.a */; };
 		764F236829FF4771C45F4AC4 /* libPods-FashionStoreObjCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0718E500ADC09A974C03C1 /* libPods-FashionStoreObjCUITests.a */; };
 		83FAF757B16A17BCDCCDDA99 /* libPods-FashionStoreObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A7F57ED8C2859D0F817A6C /* libPods-FashionStoreObjC.a */; };
@@ -60,6 +62,10 @@
 		0C0B897D1D9049E500251B7C /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		0C0B897E1D9049E500251B7C /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		0C0B897F1D9049E500251B7C /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		0C7061A31D90D68C003B6D42 /* FeaturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedViewController.h; sourceTree = "<group>"; };
+		0C7061A41D90D68C003B6D42 /* FeaturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedViewController.m; sourceTree = "<group>"; };
+		0C7061A61D90E383003B6D42 /* FeaturedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedTableViewCell.h; sourceTree = "<group>"; };
+		0C7061A71D90E383003B6D42 /* FeaturedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeaturedTableViewCell.m; sourceTree = "<group>"; };
 		12A7F57ED8C2859D0F817A6C /* libPods-FashionStoreObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionStoreObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		192A5A92E337F1EC2DB9F4F0 /* Pods-FashionStoreObjCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStoreObjCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStoreObjCUITests/Pods-FashionStoreObjCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1E87208712A8FBBD80DC8572 /* Pods-FashionStoreObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionStoreObjCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FashionStoreObjCTests/Pods-FashionStoreObjCTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,13 +134,7 @@
 				0C0B894A1D90327100251B7C /* AppDelegate.m */,
 				0C0B894C1D90327100251B7C /* SplashViewController.h */,
 				0C0B894D1D90327100251B7C /* SplashViewController.m */,
-				0C0B89521D90327200251B7C /* Assets.xcassets */,
-				0C0B89541D90327200251B7C /* LaunchScreen.storyboard */,
-				0C0B89571D90327200251B7C /* Info.plist */,
-				0C0B897C1D9049E500251B7C /* Lato-Regular.ttf */,
-				0C0B897D1D9049E500251B7C /* Lato-Bold.ttf */,
-				0C0B897E1D9049E500251B7C /* Lato-Light.ttf */,
-				0C0B897F1D9049E500251B7C /* Lato-Medium.ttf */,
+				0C7061A21D90D618003B6D42 /* FeaturedViewController */,
 				0C0B89461D90327100251B7C /* Supporting Files */,
 			);
 			path = FashionStoreObjC;
@@ -143,6 +143,13 @@
 		0C0B89461D90327100251B7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C0B89521D90327200251B7C /* Assets.xcassets */,
+				0C0B89541D90327200251B7C /* LaunchScreen.storyboard */,
+				0C0B89571D90327200251B7C /* Info.plist */,
+				0C0B897C1D9049E500251B7C /* Lato-Regular.ttf */,
+				0C0B897D1D9049E500251B7C /* Lato-Bold.ttf */,
+				0C0B897E1D9049E500251B7C /* Lato-Light.ttf */,
+				0C0B897F1D9049E500251B7C /* Lato-Medium.ttf */,
 				0C0B89471D90327100251B7C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -164,6 +171,17 @@
 				0C0B896D1D90327300251B7C /* Info.plist */,
 			);
 			path = FashionStoreObjCUITests;
+			sourceTree = "<group>";
+		};
+		0C7061A21D90D618003B6D42 /* FeaturedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C7061A31D90D68C003B6D42 /* FeaturedViewController.h */,
+				0C7061A41D90D68C003B6D42 /* FeaturedViewController.m */,
+				0C7061A61D90E383003B6D42 /* FeaturedTableViewCell.h */,
+				0C7061A71D90E383003B6D42 /* FeaturedTableViewCell.m */,
+			);
+			name = FeaturedViewController;
 			sourceTree = "<group>";
 		};
 		37173992FF3471F2252E5203 /* Pods */ = {
@@ -459,6 +477,8 @@
 				0C0B894E1D90327100251B7C /* SplashViewController.m in Sources */,
 				0C0B894B1D90327100251B7C /* AppDelegate.m in Sources */,
 				0C0B89481D90327100251B7C /* main.m in Sources */,
+				0C7061A51D90D68C003B6D42 /* FeaturedViewController.m in Sources */,
+				0C7061A81D90E383003B6D42 /* FeaturedTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
