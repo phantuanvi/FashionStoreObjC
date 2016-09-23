@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LeftShopViewController : UIViewController
+@interface LeftShopViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end
