@@ -11,21 +11,17 @@
 
 @implementation FeaturedTableViewCell
 
-//@synthesize imgView;
-
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (!self) {
-        return nil;
+    if (self) {
+        [self setupViews];
     }
-    
-    [self setupViews];
     return self;
 }
 
 - (void)setupViews {
     
-    _imgView = UIImageView.new;
+    _imgView = [[UIImageView alloc] init];
     _imgView.contentMode = UIViewContentModeScaleToFill;
     [self.contentView addSubview:_imgView];
     

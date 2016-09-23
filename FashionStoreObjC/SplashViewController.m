@@ -8,7 +8,11 @@
 
 #import "SplashViewController.h"
 #import "FeaturedViewController.h"
+#import "ShopViewController.h"
+#import "LeftShopViewController.h"
+#import "RightShopViewController.h"
 #import "Masonry.h"
+#import "SWRevealViewController.h"
 
 @interface SplashViewController ()
 //@property (strong, nonatomic) UIScrollView *scrollView;
@@ -163,8 +167,21 @@
     UITabBarItem *featuredItem = [[UITabBarItem alloc] initWithTitle:@"Featured" image:[UIImage imageNamed:@"featured"] tag:0];
     featuredVC.tabBarItem = featuredItem;
     
+    // Shop View Controller
+    ShopViewController *shopVC = ShopViewController.new;
+    UINavigationController *shopNav = [[UINavigationController alloc] initWithRootViewController:shopVC];
+    LeftShopViewController *leftShopVC = LeftShopViewController.new;
+    RightShopViewController *rightShopVC = RightShopViewController.new;
+    SWRevealViewController *revealController = [[SWRevealViewController alloc] initWithRearViewController:leftShopVC frontViewController:shopNav];
+//    revealController.delegate = self;
+    revealController.rightViewController = rightShopVC;
+    _revealViewController = revealController;
+    
+    UITabBarItem *shopItem = [[UITabBarItem alloc] initWithTitle:@"Shop" image:[UIImage imageNamed:@"merchant"] tag:1];
+    _revealViewController.tabBarItem = shopItem;
+    
     UITabBarController *tabBarCtrl = [[UITabBarController alloc] init];
-    tabBarCtrl.viewControllers = @[featuredNav];
+    tabBarCtrl.viewControllers = @[featuredNav, _revealViewController];
     
     [self presentViewController:tabBarCtrl animated:YES completion:nil];
 }

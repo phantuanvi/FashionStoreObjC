@@ -39,11 +39,6 @@ static NSString * const cellReuseIdentifier = @"cellReuseIdentifier";
     [self.tableView registerClass:FeaturedTableViewCell.class forCellReuseIdentifier:cellReuseIdentifier];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -61,7 +56,7 @@ static NSString * const cellReuseIdentifier = @"cellReuseIdentifier";
     //cell.imageView.image = [UIImage imageNamed: _banners[indexPath.row]];
     _heightCell = [UIImage imageNamed: _banners[indexPath.row]].size.height;
     
-    NSLog(@"%f", _heightCell);
+//    NSLog(@"%f", _heightCell);
     
     return cell;
 }

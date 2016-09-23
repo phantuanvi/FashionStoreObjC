@@ -7,6 +7,7 @@ target 'FashionStoreObjC' do
 
   # Pods for FashionStoreObjC
 pod 'Masonry'
+pod 'SWRevealViewController'
 
   target 'FashionStoreObjCTests' do
     inherit! :search_paths

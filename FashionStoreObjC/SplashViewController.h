@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class SWRevealViewController;
+
 @interface SplashViewController : UIViewController
 
+@property (strong, nonatomic)  SWRevealViewController *revealViewController;
 
 @end
 

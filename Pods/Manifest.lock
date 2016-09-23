@@ -1,12 +1,15 @@
 PODS:
   - Masonry (1.0.2)
+  - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
   - Masonry
+  - SWRevealViewController
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: 90372441c46eb1c81fb6add1e1c328e65a892f2f
+PODFILE CHECKSUM: 8b2aca78bbb758c48b485478f2f23daa9f45c90f
 
 COCOAPODS: 1.0.1
